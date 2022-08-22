@@ -107,3 +107,6 @@ BEGIN
             dbe.exchange_id  -- for lateral derived
     ) AS bc;
 END;
+
+-- Для заполнения таблицы выполнить: 
+-- CALL fill_quotes(<дата-или-null>);
